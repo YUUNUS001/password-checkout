@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(50, 63, 75);
+}
+.password{
+    height: 230px;
+    width: 500px;
+    background-color: white;
+    margin: 10% 35% 10% 30%;
+    border-radius: 10px ;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+label{
+    /* margin-top: 10%; */
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.forms{
+    width: 80%;
+    height: 10em;
+    padding-top: 30px;
+    margin: 10% 10% 10% 10%;
+}
+input{
+    width: 90%;
+    height: 40px;
+    font-size: 13px;
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+input::placeholder{
+    padding-left: 10px;
+}
+input:focus{
+    outline: 2px solid goldenrod;
+}
+button{
+    background-color: darkgreen;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+} 
